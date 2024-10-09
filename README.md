@@ -1,11 +1,13 @@
 # Netflix-Project
 
 ## Overview
-This project analyzes a Netflix dataset obtained from Kaggle, focusing on cleaning the data and creating visualizations to uncover trends and insights.
+This project analyzes a Netflix dataset, focusing on cleaning the data and creating visualizations to uncover trends and insights.
 
 ## Data Cleaning
-The dataset had several duplicates and missing values. We addressed these issues by:
-- Removing duplicate rows
+The dataset had several duplicates,missing values and find statistical values using numpy and cleaned the data using pandas framework. We addressed these issues by:
+- Removing duplicate rows, values
+- getout statistical values from data
+- visualize using seaborn framework
 - Filling missing values for non-essential fields like 'director' with 'Unknown'
 - Dropping rows with critical missing information, such as 'cast' and 'country'
 ## Conclusion
